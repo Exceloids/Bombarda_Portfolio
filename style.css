@@ -362,6 +362,20 @@ span{
     background-color: var(--bg-color);
     width: 50px;
 }
+.aboutMe-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.aboutMe h2 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+.aboutMe p {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
 .skills h2{
     margin-bottom: 5rem;
 }
@@ -566,6 +580,11 @@ footer ul{
         font-size: 55%;
     }
     .skills-container{
+        padding-bottom: 7rem;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 5rem;
+    }
+    .projects-container{
         padding-bottom: 7rem;
         grid-template-columns: repeat(2,1fr);
         margin: 0 5rem;
