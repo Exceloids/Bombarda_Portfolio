@@ -372,7 +372,7 @@ span{
     flex-wrap: wrap;
     gap: 2rem;
 }
-.skills-container .skill-box{
+.skills-container .skill-box {
     flex: 1 1 30rem;
     max-height: 30rem;
     background: var(--second-bg-color);
@@ -381,12 +381,15 @@ span{
     text-align: center;
     border: .2rem solid;
     transition: 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* Center content vertically */
+    overflow: hidden;  /* Ensure content doesn't overflow */
 }
 .skills-container .skill-box:hover{
     border-color: var(--main-color);
     transform: scale(1.02);
 }
-
 .skill-box i{
     font-size: 7rem;
     color: var(--main-color);
